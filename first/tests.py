@@ -14,3 +14,4 @@ class IndexTest(TestCase):
         self.assertEqual(response.context["pages"], 3)
         self.assertEqual(response.context["auth"], "Andrew")
         self.assertIn("cr_date", response.context)
+        
